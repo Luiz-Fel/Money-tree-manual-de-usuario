@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+
+:root {
+  --black: #161616;
+  --black-800: #232323;
+  --black-400: #979797 ;
+  --black-200: #ebebeb;
+  --blue: #10D1FC;
+  --blue-800: #05375a;
+  --blue-500: #2271aa;
+}
+
+body {
+  font: 16px 'Montserrat';
+}
+
+header, footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: var(--black);
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo, footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo img, footer .logo img {
+  height: 4rem;
+}
+
+header .logo h1, footer .logo h1 {
+  margin-left: 0.5rem;
+}
+
+header .logo h3, footer .logo h3 {
+  font-size: 1rem;
+}
+
+header .menu, footer .menu {
+  color: white;
+  height: 4rem;
+}
+
+main {
+  background-color: var(--black-200);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 4rem;
+  padding: 1rem;
+  margin: auto;
+  border-bottom: var(--black-400) 1px solid;
+}
+
+main .content {
+  max-width: 720px;
+}
+
+main .content .intro {
+  margin: 0 auto;
+}
+
+main .content .intro h2 {
+  font-size: 2rem;
+}
+
+main .content .sections-list {
+  border-top: var(--black-400) 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+main .content .sections-list a {
+  color: var(--blue-800);
+}
+
+main .content .sections-list a:not(:first-child) {
+  margin-top: 1rem;
+}
+
+main .content .sections-list .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .content .sections-list .nav a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .content .sections-list .nav a:hover {
+  color: var(--blue);
+}
+
+main .content .section {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+main .content .section p {
+  margin-top: 1rem;
+}
+
+main .content .section .section-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+main .content .section ul {
+  margin-left: 1.5rem;
+}
+
+main .content .section ul li {
+  margin-top: 1.5rem;
+}
+
+footer {
+  padding-bottom: 3rem;
+  background-color: var(--black-800);
+}
+
+footer .logo .github-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 1rem;
+}
+
+footer .logo .github-icon img {
+  height: 1.5rem;
+}
+
+footer li {
+  list-style-type: none;
+  margin-top: 1.5rem;
+}
+
+footer a {
+  color: var(--blue-500);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: var(--blue);
+}
+/*# sourceMappingURL=styles.css.map */

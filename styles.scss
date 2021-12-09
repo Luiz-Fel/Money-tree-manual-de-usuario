@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a {
+        text-decoration: none;
+
+    }
+}
+
+:root {
+    --black: #161616;
+    --black-800: #232323;
+    --black-400: #979797 ;
+    --black-200: #ebebeb;
+    --blue: #10D1FC;
+    --blue-800: #05375a;
+    --blue-500: #2271aa;
+    
+}
+
+body {
+    font: 16px 'Montserrat';
+}
+
+
+
+header, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background: var(--black);
+    color: white;
+
+    align-items: center;
+    
+    .logo {
+        
+        display: flex;
+        align-items: center;
+        
+        img {
+            height: 4rem;
+        }
+
+        h1 {
+
+            margin-left: 0.5rem;
+        }
+
+        h3 {
+        font-size: 1rem;
+    }
+    }
+
+    .menu {
+        color: white;
+        height: 4rem;
+        
+    }
+}
+
+main {
+    background-color: var(--black-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding: 1rem;
+    margin: auto;
+    border-bottom: var(--black-400) 1px solid;
+    .content {
+        max-width: 720px;
+
+        .intro {
+            h2 {
+                font-size: 2rem;
+            }
+            margin: 0 auto;
+        }
+    
+        .sections-list {
+            border-top: var(--black-400) 1px solid;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            a {
+                color: var(--blue-800);
+                &:not(:first-child) {
+                    margin-top: 1rem;
+                }
+            }
+    
+            .nav {
+                display: flex;
+                flex-direction: column;
+    
+                a {
+    
+    
+                    &:hover {
+                        color: var(--blue);
+                    }
+                    transition: 0.3s;
+                }
+            }
+        }
+    
+        .section {
+            padding: 1rem;
+            border-radius: 8px;
+            background-color: white;
+            margin-top: 1rem;
+            p {
+                margin-top: 1rem;
+            }
+            .section-title {
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+            }
+            ul {
+                margin-left: 1.5rem;
+                li {
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+    }
+    
+
+}
+
+footer {
+    padding-bottom: 3rem;
+    background-color: var(--black-800);
+    .logo {
+        .github-icon {
+            display: flex;
+            justify-content: center;
+            img {
+                height: 1.5rem;
+            }
+            margin-left: 1rem;
+        }
+    }
+    li {
+        list-style-type: none;
+        margin-top: 1.5rem;
+    }
+    a {
+    
+        color: var(--blue-500);
+        
+        &:hover {
+            color: var(--blue);
+        }
+        transition: 0.3s;
+    }
+}
