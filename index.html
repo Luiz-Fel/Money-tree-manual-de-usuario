@@ -15,7 +15,7 @@
     />
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
           <img src="public/logo.png" alt="logo" />
           <h1>MoneyTree</h1>
@@ -34,60 +34,84 @@
       
                 <nav class="sections-list">
                     <div class="nav nav-left ">
-                        <a href="">Login</a>
-                        <a href="">Tela inicial</a>
-                        <a href="">Adicionar transação</a>
+                        <a href="#como-entrar-no-app">Como entrar no app</a>
+                        <a href="#tela-inicial">Tela inicial</a>
+                        <a href="#adicionar-transacao">Adicionar transação</a>
       
                     </div>
                     <div class="nav nav-right">
       
-                        <a href="">Boletos</a>
-                        <a href="">Cadastrar um boleto</a>
+                        <a href="#cadastrar-um-boleto">Cadastrar um boleto</a>
+                        <a href="#visualizar-boletos">Visualizar boletos</a>
                     </div>
                 </nav>
               </div>
-              <div class="section">
-                <h3 class="section-title">Login : como entrar no app</h3>
-                <p>Para fazer o login no MoneyTree é muito fácil: </p>
+              <div class="section" id="como-entrar-no-app">
+                <h3 class="section-title" >Como entrar no app</h3>
+                <p>Para entrar no MoneyTree é muito fácil: </p>
                 <p>1 - Abra o app do MoneyTree</p>
-                <p>2 - Clique em "Ou entre com sua conta"</p>
-                <p>3 - Insira seu usuário e senha e clique em "entrar"</p>
-                <p>Você também pode usar o app sem utilizar uma conta clicando em "Iniciar sem conta"</p>
+                <p>2 - Clique em <span> "Ou entre com sua conta"</span> e insira seu usuário e senha ou entre sem uma conta clicando em <span>"Iniciar sem conta"</span></p>
       
               </div>
-              <div class="section">
+              <div class="section" id="tela-inicial">
                 <h3 class="section-title">Tela inicial</h3>
                 <p>Na tela inicial, temos algumas informações importantes:</p>
-                <p>No dashboard temos acima o saldo da sua conta, <br>Abaixo dele temos uma lista com as últimas transações efetuadas</p>
+                <div class="container-img">
+                        
+                    <img src="./public/Home.png" alt="">
+                </div>
+                <p>Na tela inicial temos o saldo da sua conta, Abaixo dele temos uma lista com as últimas transações efetuadas</p>
                 <p>Na parte inferior temos três botões:</p>
+                <div class="container-img">
+                        
+                    <img src="./public/Home-destacado.png" alt="">
+                </div>
                 <ul>
                     <li>Na esquerda temos o botão home, que te leva para a página inicial</li>
                     <li>Na direita temos o botão que mostra a lista de boletos adicionados</li>
-                    <li>No centro temos o botão que adiciona uma nova transação</li>
+                    <li>No centro temos o botão "+" que adiciona uma nova transação</li>
                   </div>
                 </ul>
-              <div class="section">
+              <div class="section" id="adicionar-transacao">
                 <h3 class="section-title">Adicionar transação</h3>
                   <p>Para adicionar uma nova transação, o que devo fazer ?</p>
-                  <p>1 - Você deve ir para a tela inicial e clicar  no botão "+"</p>
-                  <p>2 - Agora você define o tipo de transação, clique em "entrada" caso a sua transação for uma entrada ou clique em "saída" caso a transação seja uma saída</p>
-      
-              </div>
-              <div class="section">
+                  <p>1 - Você deve ir para a tela inicial e clicar  no botão <span>"+"</span></p>
+                  <p>2 - Agora você define o tipo de transação, clique em <span>"entrada"</span>  caso a sua transação for uma entrada ou clique em  <span>"saída"</span> caso a transação seja uma saída</p>
+                  <div class="container-img">
+                        
+                      <img src="./public/Home cadastro saldo.png" alt="">
+                </div>
+                </div>
+                <div class="section" id="visualizar-boletos">
+                  <h3 class="section-title">Visualisar boletos</h3>
+                    <p>Para visualisar os seus boletos basta clicar no botão no canto inferior esquerdo com um ícone de lista</p>
+                    <div class="container-img">
+
+                        <img src="./public/Home-boleto-destacado.png" alt="">
+                    </div>
+                    <p>Ao clicar, você verá a página contendo os boletos adicionados</p>
+                    <div class="container-img">
+                        
+                        <img src="./public/Boletos.png" alt="">
+                    </div>
+                </div>
+              <div class="section" id="cadastrar-um-boleto">
                 <h3 class="section-title">Cadastrar um boleto </h3>
                   <p>Para cadastrar um novo boleto: </p>
-                  <p>1 - Clique no botão "+"</p>
-                  <p>2 - Digite o código do boleto </p>
-                  <p>3 - Pronto! agora você pode visualisar o seu boleto na lista de boletos.</p>
-      
-              </div>
-              <div class="section">
-                <h3 class="section-title">Visualisar Boletos</h3>
-                  <p>Para visualisar os seus boletos basta clicar no botão no canto inferior esquerdo com um ícone de lista</p>
-                  <p>Ao clicar, você verá a página contendo os boletos adicionados</p>
+                  <p>1 - Vá para a página de boletos clicando no botão inferior diteiro</p>
+                  <div class="container-img">
+                        
+                      <img src="./public/Home-boleto-destacado.png" alt="">
+                    </div>
+                  <p>2 - Clique no botão <span> "+"</span> </p>
+                  <p>3 - Digite o código do boleto </p>
+                  <div class="container-img">
+                        
+                      <img src="./public/Boletos cadastro.png" alt="">
+                  </div>
+                  <p>4 - Pronto! agora você pode visualisar o boleto adicionado na lista de boletos.</p>
               </div>
         </div>
-        <a href="" class="scrool-up"></a>
       </main>
       <footer>
         <div class="logo">
@@ -96,6 +120,9 @@
             <a class="github-icon" href="https://github.com/WillhelmKya/PROJETO-ED-EQUIPE-C"><img src="./public/github.png" alt="Github"></a>
         </div>
         <ul>
+            <li>
+                <a href="#header" class="scroll-up">Voltar para o início</a>
+            </li>
             <li>Dúvidas ? <a href="">Fale conosco</a></li>
             <li><a href="">Acesse o MoneyTree</a></li>
         </ul>

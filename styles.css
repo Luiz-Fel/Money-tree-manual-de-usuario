@@ -81,6 +81,7 @@ main {
   padding-top: 4rem;
   padding: 1rem;
   margin: auto;
+  padding-bottom: 2rem;
   border-bottom: var(--black-400) 1px solid;
 }
 
@@ -140,6 +141,25 @@ main .content .section {
   border-radius: 8px;
   background-color: white;
   margin-top: 1rem;
+}
+
+main .content .section span {
+  color: var(--blue);
+}
+
+main .content .section .container-img {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .content .section img {
+  height: 35rem;
 }
 
 main .content .section p {

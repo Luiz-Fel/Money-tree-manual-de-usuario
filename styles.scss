@@ -71,6 +71,7 @@ main {
     padding-top: 4rem;
     padding: 1rem;
     margin: auto;
+    padding-bottom: 2rem;
     border-bottom: var(--black-400) 1px solid;
     .content {
         max-width: 720px;
@@ -115,6 +116,18 @@ main {
             border-radius: 8px;
             background-color: white;
             margin-top: 1rem;
+            span {
+                color: var(--blue);
+            }
+            .container-img {
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                height: 35rem;
+            }
             p {
                 margin-top: 1rem;
             }
